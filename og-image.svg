@@ -1,0 +1,43 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="50%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="50%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="200" cy="150" r="200" fill="#10b981" opacity="0.1"/>
+  <circle cx="1000" cy="500" r="250" fill="#22d3ee" opacity="0.1"/>
+
+  <!-- Badge -->
+  <rect x="480" y="140" width="240" height="50" rx="25" fill="url(#badge)"/>
+  <text x="600" y="173" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">PREMIUM DOMAIN</text>
+
+  <!-- Domain name -->
+  <text x="600" y="300" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="url(#textGrad)" text-anchor="middle">ChargeLagbe.com</text>
+
+  <!-- Tagline -->
+  <text x="600" y="370" font-family="Arial, sans-serif" font-size="28" fill="#64748b" text-anchor="middle">The Perfect Domain for EV Charging Business</text>
+
+  <!-- Lightning bolt icon -->
+  <g transform="translate(550, 420)">
+    <polygon points="50,0 20,45 40,45 30,80 70,30 50,30" fill="url(#badge)"/>
+  </g>
+
+  <!-- For Sale text -->
+  <text x="600" y="560" font-family="Arial, sans-serif" font-size="24" fill="#10b981" text-anchor="middle" font-weight="600">FOR SALE - Make an Offer</text>
+</svg>

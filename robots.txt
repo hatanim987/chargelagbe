@@ -1,0 +1,6 @@
+# robots.txt for chargelagbe.com
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://chargelagbe.com/sitemap.xml
